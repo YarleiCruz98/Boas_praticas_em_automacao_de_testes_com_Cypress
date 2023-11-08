@@ -1,15 +1,9 @@
 # Boas práticas em automação de testes com Cypress
 
-👋 Seja bem vinda(o)!
+## Objetivo
+- Boas práticas em automação de testes com Cypress: você vai aprender 10 más práticas na escrita de testes automatizados e como resolvê-las.
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
-
-## O que você vai aprender
-
-Durante o curso de boas práticas em automação de testes com Cypress você vai aprender 10 más práticas na escrita de testes automatizados e como resolvê-las.
-
-As más práticas em questão são as seguintes:
-
+## O que aprendi
 - _Browser testing_
 - Duplicação de código
 - _Flaky tests_
@@ -21,10 +15,5 @@ As más práticas em questão são as seguintes:
 - Dependência entre testes
 - Abstrações erradas
 
-## Vamos começar?
-
-Vá para a seção de [pré-requisitos](./lessons/0.md).
-
-___
-
-Um curso da [Escola Talking About Testing](https://udemy.com/user/walmyr).
+## Certificado
+Em Construção...
