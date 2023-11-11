@@ -16,4 +16,4 @@
 - Abstrações erradas
 
 ## Certificado
-Em Construção...
+https://www.udemy.com/certificate/UC-f278f5fb-905b-493f-88e0-e2978c6aeb74/
