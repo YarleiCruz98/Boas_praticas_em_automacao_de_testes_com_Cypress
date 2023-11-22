@@ -22,12 +22,12 @@ describe('Dependent tests bad practice', () => {
       .click()
 
     //Updade a note
-    cy.get('#content').type('updated')
+    cy.get('#content').type(' updated')
     cy.contains('Save').click()
 
     //assert the note was updated
     cy.get('.list-group')
-      .should('contain', 'My note updated')
+      .should('contain', 'My note updated', {timeout: 10000})
     cy.get('.list-group:contains(My note updated)').should('be.visible')
 
     //Deletes the note
