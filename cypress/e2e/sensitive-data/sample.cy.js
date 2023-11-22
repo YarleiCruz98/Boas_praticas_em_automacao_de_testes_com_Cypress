@@ -4,7 +4,6 @@ describe('Sensitive data bad practice', () => {
   })
 
   it('fills the form leaking sensitive data', () => {
-
     cy.get('#email')
       .type(Cypress.env('user_email'), { log: false })
       
