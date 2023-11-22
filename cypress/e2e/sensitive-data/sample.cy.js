@@ -11,4 +11,5 @@ describe('Sensitive data bad practice', () => {
     cy.get('#password')
       .type(Cypress.env('user_password'), { log: false }) 
   })
+  
 })
