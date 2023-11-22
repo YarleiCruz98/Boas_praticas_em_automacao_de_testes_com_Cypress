@@ -11,6 +11,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
 env: 
-  PASSWORD: ${{secrets.PASSWORD}}
-  EMAIL: ${{secrets.EMAIL}}
-  run: npm run cypress:run -- --env user_email=$EMAIL,user_password=$PASSWORD
+  user_password: ${{secrets.PASSWORD }}
+  user_email: ${{secrets.EMAIL }}
