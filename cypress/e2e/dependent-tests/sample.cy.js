@@ -22,7 +22,7 @@ describe('Dependent tests bad practice', () => {
       .click()
 
     //Updade a note
-    cy.get('#content').type(' updated')
+    cy.get('#content').type('updated')
     cy.contains('Save').click()
 
     //assert the note was updated
